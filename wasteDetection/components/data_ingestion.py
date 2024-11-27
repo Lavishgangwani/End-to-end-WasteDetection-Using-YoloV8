@@ -81,12 +81,12 @@ class DataIngestion:
             raise e
 
 
-if __name__ == "__main__":
-    try:
-        # Create a config object and initialize DataIngestion
-        config = DataIngestionConfig()
-        ingestion = DataIngestion(data_ingestion_config=config)
-        ingestion_artifact = ingestion.initiate_data_ingestion()
-        print(ingestion_artifact)
-    except Exception as e:
-        logging.error(f"Main execution failed: {e}")
+#if __name__ == "__main__":
+#   try:
+#        # Create a config object and initialize DataIngestion
+#        config = DataIngestionConfig()
+#        ingestion = DataIngestion(data_ingestion_config=config)
+#        ingestion_artifact = ingestion.initiate_data_ingestion()
+#        print(ingestion_artifact)
+#   except Exception as e:
+#       logging.error(f"Main execution failed: {e}")
