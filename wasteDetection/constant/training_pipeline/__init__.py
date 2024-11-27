@@ -7,3 +7,12 @@ DATA_INGESTION_DIR_NAME: str = "data_ingestion"
 
 DATA_DOWNLOAD_API: str = "qtG9oyJ3xJJAaOiRi4VG"
 
+"""
+Data Validation realted contant start with DATA_VALIDATION VAR NAME
+"""
+
+DATA_VALIDATION_DIR_NAME: str = "data_validation"
+
+DATA_VALIDATION_STATUS_FILE = 'status.txt'
+
+DATA_VALIDATION_ALL_REQUIRED_FILES = ["train", "valid", "data.yaml"]
